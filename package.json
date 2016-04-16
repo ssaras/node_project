@@ -1,0 +1,19 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "The start of a RESTful software application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssaras/node_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssaras/node_project/issues"
+  },
+  "homepage": "https://github.com/ssaras/node_project#readme"
+}
