@@ -4,7 +4,9 @@
   "description": "The start of a RESTful software application",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test.js",
+    "bundle": "browserify client.js -o bundle.js",
+    "start": "npm run bundle && node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ssaras/node_project/issues"
   },
-  "homepage": "https://github.com/ssaras/node_project#readme"
+  "homepage": "https://github.com/ssaras/node_project#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
